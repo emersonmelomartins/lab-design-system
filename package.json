@@ -9,12 +9,16 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "test-storybook": "test-storybook",
+    "test-storybook:watch": "test-storybook --watch"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.0",
     "@radix-ui/react-slot": "^1.0.0",
     "@storybook/addon-a11y": "^6.5.12",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/test-runner": "^0.9.0",
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
